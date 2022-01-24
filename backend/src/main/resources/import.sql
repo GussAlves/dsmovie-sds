@@ -4,7 +4,7 @@ INSERT INTO tb_user(email) VALUES ('ana@gmail.com');
 INSERT INTO tb_user(email) VALUES ('lucia@gmail.com');
 INSERT INTO tb_user(email) VALUES ('joaquim@gmail.com');
 
-INSERT INTO tb_movie(score, count, title, image) VALUES (4.5, 2, 'The Witcher', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (4.5, 2, 'Dragon Ball Z', 'https://i0.wp.com/i.pinimg.com/originals/f2/40/c8/f240c864609fec98352b3f0797fb3df4.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (3.3, 3, 'Venom: Tempo de Carnificina', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'O Espetacular Homem-Aranha 2: A Ameaça de Electro', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/u7SeO6Y42P7VCTWLhpnL96cyOqd.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Matrix Resurrections', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/hv7o3VgfsairBoQFAawgaQ4cR1m.jpg');

@@ -1,6 +1,6 @@
 header {
     height: 60px;
-    background-color: var(--color-primary);
+    background-color: rgb(65, 0, 153); /*var(--color-primary);*/
     display: flex;
     align-items: center;
 }
