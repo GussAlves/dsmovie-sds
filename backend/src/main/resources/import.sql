@@ -4,11 +4,11 @@ INSERT INTO tb_user(email) VALUES ('ana@gmail.com');
 INSERT INTO tb_user(email) VALUES ('lucia@gmail.com');
 INSERT INTO tb_user(email) VALUES ('joaquim@gmail.com');
 
-INSERT INTO tb_movie(score, count, title, image) VALUES (4.5, 2, 'Dragon Ball Z', 'https://i0.wp.com/i.pinimg.com/originals/f2/40/c8/f240c864609fec98352b3f0797fb3df4.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (3.3, 3, 'Venom: Tempo de Carnificina', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'O Espetacular Homem-Aranha 2: A Ameaça de Electro', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/u7SeO6Y42P7VCTWLhpnL96cyOqd.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Matrix Resurrections', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/hv7o3VgfsairBoQFAawgaQ4cR1m.jpg');
-INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Shang-Chi e a Lenda dos Dez Anéis', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/cinER0ESG0eJ49kXlExM0MEWGxW.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (4.5, 2, 'Dragon Ball Z', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yfyToia25GnvjY7FPAGaCm3lKRc.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (3.3, 3, 'Boruto: The movie', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1k6iwC4KaPvTBt1JuaqXy3noZRY.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Tokyo Ghoul', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/y2roOFsew9nJKKVwwJCHSyzgpK9.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Boku no Hero', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/phuYuzqWW9ru8EA3HVjE9W2Rr3M.jpg');
+INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Death Note', 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iigTJJskR1PcjjXqxdyJwVB3BoU.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Django Livre', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/2oZklIzUbvZXXzIFzv7Hi68d6xf.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'Titanic', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/yDI6D5ZQh67YU4r2ms8qcSbAviZ.jpg');
 INSERT INTO tb_movie(score, count, title, image) VALUES (0, 0, 'O Lobo de Wall Street', 'https://www.themoviedb.org/t/p/w533_and_h300_bestv2/cWUOv3H7YFwvKeaQhoAQTLLpo9Z.jpg');
