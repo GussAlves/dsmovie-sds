@@ -24,10 +24,9 @@ public class ScoreService {
     @Autowired
     private ScoreRepository scoreRepository;
 
-    @Transactional(readOnly = true)
+    @Transactional
     public MovieDTO saveScore(ScoreDTO dto) {
 
-        // valida se o usuário tem cadastro caso não cria
         User user = userRepository.findByEmail(dto.getEmail());
         if (user == null) {
             user = new User();
@@ -35,12 +34,13 @@ public class ScoreService {
             user = userRepository.saveAndFlush(user);
         }
 
-        // Busca filme no banco de dados
-        Movie movie = movieRepository.findById(dto.getMovieID()).get();
+        Movie movie = movieRepository.findById(dto.getMovieId()).get();
+
         Score score = new Score();
-        score.setUser(user);
         score.setMovie(movie);
+        score.setUser(user);
         score.setValue(dto.getScore());
+
         score = scoreRepository.saveAndFlush(score);
 
         double sum = 0.0;
@@ -49,11 +49,12 @@ public class ScoreService {
         }
 
         double avg = sum / movie.getScores().size();
+
         movie.setScore(avg);
         movie.setCount(movie.getScores().size());
 
         movie = movieRepository.save(movie);
+
         return new MovieDTO(movie);
     }
-
 }

@@ -4,11 +4,11 @@ import { ReactComponent as StarFull } from 'assets/img/star-full.svg';
 import './styles.css';
 
 type Props = {
-    score: number
+    score: number;
 }
 
 type StarProps = {
-    fill : number
+    fill: number;
 }
 
 // EX:
@@ -32,15 +32,16 @@ function getFills(score: number) {
     return fills;
 }
 
+
 function Star({ fill }: StarProps) {
     if (fill === 0) {
         return <StarEmpty />
     }
     else if (fill === 1) {
-        return <StarHalf />
+        return <StarFull />
     }
     else {
-        return <StarFull />
+        return <StarHalf />
     }
 }
 
