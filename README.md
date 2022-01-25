@@ -17,4 +17,11 @@ https://gussalves-dsmovie.netlify.app/
 Link para aplicação em backend: 
 https://gussalves-dsmovie.herokuapp.com/movies
 
+## Layout Web
+![Web1](https://raw.githubusercontent.com/GussAlves/dsmovie-sds/main/images/Img_1.PNG)
+![Web1](https://github.com/GussAlves/dsmovie-sds/blob/main/images/img_2.PNG)
+
+### Modelo conceitual
+![Web1](https://raw.githubusercontent.com/GussAlves/dsmovie-sds/main/images/modelo%20conceitual.PNG)
+
 Instalação dos projetos nos readme dos repositórios
