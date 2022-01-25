@@ -2,11 +2,11 @@
 
 ## Projeto DS Movie da 5ª Semana Spring React do canal DevSuperior.
 
-Projeto com algumas modificações pessoais (Alterei o projeto para avalidações de animes) 
+Projeto com algumas modificações pessoais (Alterei o projeto para avaliação de animes) 
 
 Especificações
 
-Backend REST desenvolvido com Java (Spring Web, Spring Boot, JPA, Postgres) hospedado no Heroku.
+Backend REST desenvolvido com Java (Spring Web, Spring Rest, JPA, Postgres) hospedado no Heroku.
 Frontend desenvolvido em REACT JS hospedado no Netlify.
 
 ## Links
