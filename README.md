@@ -16,3 +16,5 @@ https://gussalves-dsmovie.netlify.app/
 
 Link para aplicação em backend: 
 https://gussalves-dsmovie.herokuapp.com/movies
+
+Instalação dos projetos nos readme dos repositórios
