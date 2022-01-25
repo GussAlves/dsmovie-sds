@@ -15,7 +15,7 @@ Para prosseguir temos que subir nosso banco de dados *Postgree*, para isso vamos
 ```sh
 docker-compose up -d
 ```
-> Ele irá subir o banco de dados MariaDb junto com um adiministrador, você pode consultar na url http://localhost:5432
+> Ele irá subir o banco de dados junto com um adiministrador, você pode consultar na url http://localhost:5432
 
 > *Usuário: postgre | Senha: 1234567*
 
